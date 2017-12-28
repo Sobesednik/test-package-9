@@ -1,0 +1,26 @@
+{
+  "name": "test-package-9",
+  "version": "0.1.0",
+  "description": "test-description",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sobesednik/test-package-9.git"
+  },
+  "keywords": [
+    "{{ keywords }}"
+  ],
+  "author": "Anton <anton@sobesednik.media>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/test-package-9/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/test-package-9#readme",
+  "devDependencies": {
+    "zoroaster": "0.4.6"
+  }
+}
